@@ -35,7 +35,7 @@ const LoginPage = () => {
 
   return (
     <Box padding="20px">
-      <Flex padding="0 60px 0px 20px" marginTop="10px">
+      <Flex padding="0 60px 0px 20px" marginTop="20px">
         <Box width="50%">
           <Text fontSize="69px" color="white" lineHeight="90px">
             Explore and Earn
@@ -147,8 +147,8 @@ const LoginPage = () => {
         borderRadius="20px"
         backgroundColor="rgba(255,255,255, 0.5)"
         border="1px solid rgba(255,255,255, 0.5)"
-        padding="50px 150px"
-        marginTop="20px"
+        padding="30px 150px"
+        marginTop="30px"
       >
         <Flex flexDirection="column" alignItems="center">
           <Text
