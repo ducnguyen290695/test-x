@@ -23,7 +23,7 @@ const LoginPage = () => {
       dispatch(setIsLoggined(true));
     },
     onError: () => {
-      window.prompt("Login error!");
+      window.alert("Login error!");
     },
     flow: "auth-code",
     redirect_uri: "postmessage",

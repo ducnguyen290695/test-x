@@ -43,7 +43,7 @@ const Header = () => {
       dispatch(setWallet(account));
     } catch (error) {
       console.error({ error });
-      window.prompt("Error!");
+      window.alert("Error!");
     }
   }, []);
 
