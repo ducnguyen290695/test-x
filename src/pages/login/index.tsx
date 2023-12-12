@@ -26,6 +26,7 @@ const LoginPage = () => {
       window.prompt("Login error!");
     },
     flow: "auth-code",
+    redirect_uri: "https://test-x-phi.vercel.app",
   });
 
   const handleLauchApp = useCallback(() => {
