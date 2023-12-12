@@ -26,7 +26,7 @@ const LoginPage = () => {
       window.prompt("Login error!");
     },
     flow: "auth-code",
-    redirect_uri: "https://test-x-duc.nguyen.vercel.app",
+    redirect_uri: "https://test-x-duc-nguyen.vercel.app",
   });
 
   const handleLauchApp = useCallback(() => {
