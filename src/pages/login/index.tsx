@@ -35,7 +35,7 @@ const LoginPage = () => {
 
   return (
     <Box padding="20px">
-      <Flex padding="0 60px 0px 20px" marginTop="50px">
+      <Flex padding="0 60px 0px 20px" marginTop="10px">
         <Box width="50%">
           <Text fontSize="69px" color="white" lineHeight="90px">
             Explore and Earn
@@ -45,7 +45,7 @@ const LoginPage = () => {
             <Text
               fontSize="69px"
               color="white"
-              lineHeight="90px"
+              lineHeight="80px"
               marginRight="30px"
             >
               on
@@ -54,7 +54,7 @@ const LoginPage = () => {
           </Flex>
 
           <Flex
-            width="45%"
+            width="60%"
             borderRadius="32px"
             overflow="hidden"
             backgroundColor="white"
@@ -83,11 +83,11 @@ const LoginPage = () => {
           </Flex>
 
           <Flex
-            width="45%"
+            width="60%"
             padding="10px"
             justifyContent="space-between"
             fontWeight="700"
-            marginTop="20px"
+            marginTop="10px"
           >
             <Text
               width="118px"
@@ -148,7 +148,7 @@ const LoginPage = () => {
         backgroundColor="rgba(255,255,255, 0.5)"
         border="1px solid rgba(255,255,255, 0.5)"
         padding="50px 150px"
-        marginTop="80px"
+        marginTop="20px"
       >
         <Flex flexDirection="column" alignItems="center">
           <Text

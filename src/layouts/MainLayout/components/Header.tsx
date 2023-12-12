@@ -48,8 +48,8 @@ const Header = () => {
   }, []);
 
   return (
-    <Flex height="140px" alignItems="center" gap="120px" padding="0 20px">
-      <img src={imagePath.logo} width="260px" alt="" />
+    <Flex height="120px" alignItems="center" gap="120px" padding="0 20px">
+      <img src={imagePath.logo} width="260px" alt="" height="120px" />
 
       <Flex
         flex={1}

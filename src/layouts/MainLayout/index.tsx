@@ -8,7 +8,7 @@ const MainLayout = () => {
       <Header />
 
       <Box
-        height="calc(100vh - 140px)"
+        height="calc(100vh - 120px)"
         backgroundImage="linear-gradient(to right, #8F4791, #D9659C,#F7A050, #FAA051,#CF642D)"
       >
         <Outlet />
